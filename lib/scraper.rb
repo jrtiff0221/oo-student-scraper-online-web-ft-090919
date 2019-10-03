@@ -52,22 +52,4 @@ class Scraper
     return_hash
   end
 end
-# index_url = "https://learn-co-curriculum.github.io/student-scraper-test-page/index.html"
 
-# scraped_students = Scraper.scrape_index_page(index_url)
-
-
-# :twitter=>"http://twitter.com/flatironschool",
-# :linkedin=>"https://www.linkedin.com/in/flatironschool",
-# :github=>"https://github.com/learn-co",
-# :blog=>"http://flatironschool.com",
-# :profile_quote=>"\"Forget safety. Live where you fear to live. Destroy your reputation. Be notorious.\" - Rumi",
-# :bio=> "I'm a school"
-
-# profile_url = "https://learn-co-curriculum.github.io/student-scraper-test-page/students/joe-burgess.html"
-# scraped_student = Scraper.scrape_profile_page(profile_url)
-
-# puts "\n\n"
-
-# profile_url2 = "https://learn-co-curriculum.github.io/student-scraper-test-page/students/david-kim.html"
-# scraped_student2 = Scraper.scrape_profile_page(profile_url2)
